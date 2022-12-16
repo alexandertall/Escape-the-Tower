@@ -5,10 +5,10 @@ using UnityEngine;
 public class TriggerPlatform : MonoBehaviour
 {
 
-
-    void OnTriggerEnter(Collider collider)
+    [SerializeField] public Rigidbody objectRigidbody;
+    void OnCollisionEnter(Collision collision)
     {
-        if (collider.gameObject.tag == "Puzzle_Object")
+        if (collision.gameObject.tag == "Puzzle_Object" && objectRigidbody.useGravity == true)
         {
             Debug.Log("Works");
         }
