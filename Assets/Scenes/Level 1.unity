@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 1926232218}
   - component: {fileID: 1926232223}
   m_Layer: 3
-  m_Name: Cube (6)
+  m_Name: THE CUBE
   m_TagString: Puzzle_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
